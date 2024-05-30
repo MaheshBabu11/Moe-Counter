@@ -1,6 +1,6 @@
 # Moe-Counter
 
-This is a for of Moe counter from [journey-ad/Moe-Counter] deployed on Glitch for my personal use.
+This is a fork of Moe counter from [journey-ad/Moe-Counter] deployed on Glitch for my personal use.
 
 ![Moe-Counter](https://anime-page-counter.glitch.me/get/@Moe-counter.github)
 
