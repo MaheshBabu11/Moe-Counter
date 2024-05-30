@@ -1,26 +1,26 @@
 # Moe-Counter
 
-多种风格可选的萌萌计数器
+This is a for of Moe counter from [journey-ad/Moe-Counter] deployed on Glitch for my personal use.
 
-![Moe-Counter](https://count.getloli.com/get/@Moe-counter.github)
+![Moe-Counter](https://anime-page-counter.glitch.me/get/@Moe-counter.github)
 
 <details>
 <summary>More theme</summary>
 
 ##### asoul
-![asoul](https://count.getloli.com/get/@demo?theme=asoul)
+![asoul](https://anime-page-counter.glitch.me/get/@demo?theme=asoul)
 
 ##### moebooru
-![moebooru](https://count.getloli.com/get/@demo?theme=moebooru)
+![moebooru](https://anime-page-counter.glitch.me/get/@demo?theme=moebooru)
 
 ##### rule34
-![Rule34](https://count.getloli.com/get/@demo?theme=rule34)
+![Rule34](https://anime-page-counter.glitch.me/get/@demo?theme=rule34)
 
 ##### gelbooru
-![Gelbooru](https://count.getloli.com/get/@demo?theme=gelbooru)</details>
+![Gelbooru](https://anime-page-counter.glitch.me/get/@demo?theme=gelbooru)</details>
 
 ## Demo
-[https://count.getloli.com](https://count.getloli.com)
+[https://anime-page-counter.glitch.me/](https://anime-page-counter.glitch.me/)
 
 ## Usage
 
