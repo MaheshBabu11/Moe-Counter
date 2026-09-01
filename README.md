@@ -231,10 +231,32 @@
 
 ![sketch-2](https://count.getloli.com/@demo?theme=sketch-2)
 
+##### yousa-ling
+
+![yousa-ling](https://count.getloli.com/@demo?theme=yousa-ling)
+
 </details>
 
 ## Demo
 [https://count.getloli.com](https://count.getloli.com)
+
+## Sponsor / 赞助
+
+This service handles over **10 million** requests every month. If *Moe Counter!* has been useful to you, please consider sponsoring to help keep the server running. Every little bit helps! 💖
+
+*Moe Counter!* 每月处理超过 **1000万** 次请求。如果这个项目对你有帮助，恳请赞助支持服务器的持续运行，感谢每一份支持！
+
+- **Ko-fi**: https://ko-fi.com/journey_ad
+- **爱发电**: https://ifdian.net/a/journey-ad
+
+<details>
+<summary>Alipay / WeChat Pay（支付宝 / 微信支付）</summary>
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/journey-ad/blog-img/about/alipay.jpg" alt="Alipay" width="200">
+  <img src="https://cdn.jsdelivr.net/gh/journey-ad/blog-img/about/wechatpay.jpg" alt="WeChat Pay" width="200">
+</p>
+</details>
+
 
 ## How to use
 
@@ -242,7 +264,41 @@ For information on counter usage and configuration, refer to the [demo website](
 
 ## Usage
 
-### Deploying
+### Using Docker (Recommended)
+
+Pull the pre-built image from GitHub Container Registry:
+
+```shell
+$ docker pull ghcr.io/journey-ad/moe-counter:latest
+```
+
+Run with Docker:
+
+```shell
+$ docker run -d -p 3000:3000 \
+  -v $(pwd)/data:/app/data \
+  -e APP_PORT=3000 \
+  -e DB_TYPE=sqlite \
+  ghcr.io/journey-ad/moe-counter:latest
+```
+
+Or use docker-compose:
+
+```yaml
+version: '3'
+services:
+  moe-counter:
+    image: ghcr.io/journey-ad/moe-counter:latest
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - APP_PORT=3000
+      - DB_TYPE=sqlite
+```
+
+### Deploying from Source
 
 ```shell
 $ git clone https://github.com/journey-ad/Moe-Counter.git
@@ -281,7 +337,6 @@ LOG_LEVEL=debug
 
 ## Credits
 
-* [Render](https://render.com/)
 * [A-SOUL_Official](https://space.bilibili.com/703007996)
 * [moebooru](https://github.com/moebooru/moebooru)
 * gelbooru.com NSFW
